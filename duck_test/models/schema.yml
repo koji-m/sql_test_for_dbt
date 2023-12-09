@@ -1,0 +1,19 @@
+
+version: 2
+
+models:
+  - name: distro_using
+    description: "Linux distro I'm using"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+      - name: name
+        description: "Linux distro name"
+
+sources:
+  - name: main
+    description: "main schema"
+    schema: main
+    tables:
+      - name: linux_distro
+        description: "Linux distros"
