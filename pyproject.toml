@@ -20,3 +20,6 @@ pyproject-flake8 = "^6.1.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+max-line-length = 119
