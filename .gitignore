@@ -7,3 +7,5 @@ dbt_modules/
 dbt_packages/
 logs/
 
+### Duck DB ###
+test.duckdb
